@@ -74,7 +74,7 @@ Once connected to WiFi, access the configuration page:
    ```
 
 2. Configure the script:
-   - Open [.claude/pc_stats_monitor.py](.claude/pc_stats_monitor.py)
+   - Open [pc_stats_monitor.py](pc_stats_monitor.py)
    - Change the `ESP32_IP` to match your ESP32's IP address (displayed on OLED):
      ```python
      ESP32_IP = "192.168.0.163"  # Change this to your ESP32 IP
@@ -82,7 +82,7 @@ Once connected to WiFi, access the configuration page:
 
 3. Run the script:
    ```bash
-   python .claude/pc_stats_monitor.py
+   python pc_stats_monitor.py
    ```
 
 #### Running at Startup (Optional)
