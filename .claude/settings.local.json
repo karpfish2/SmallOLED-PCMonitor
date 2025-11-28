@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pio run:*)",
+      "Bash(platformio run:*)",
+      "Bash(where:*)",
+      "Bash(python -m platformio:*)",
+      "Bash(~.platformiopenvScriptsplatformio.exe run)",
+      "Bash(C:Usersrafal.platformiopenvScriptsplatformio.exe run)",
+      "Bash(\"/c/Users/rafal/.platformio/penv/Scripts/platformio.exe\" run)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
